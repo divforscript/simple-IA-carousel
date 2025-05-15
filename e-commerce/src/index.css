@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  caret-color: transparent;
+}
+
+:root {
+  color-scheme: light dark;
+}
+
+
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}

@@ -1,0 +1,106 @@
+#cart-box {
+  box-shadow: 
+    -0.5rem 0.6rem 20px  rgba(0, 0, 0, 0.400),
+    0.5rem 0.6em 20px rgba(0, 0, 0, 0.400);
+}
+
+@media only screen and (480px < width) {
+  
+#cart-box {
+  width: 320px;
+  left: auto;
+  right: clamp(32px,calc(15vw - 80px),60px);
+}
+
+#cart-title {
+  display: flex;
+  align-items: center;
+
+}
+
+}
+
+
+@media only screen and (768px < width) {
+  #cart-box {
+    right: clamp(8px,calc(15vw - 80px),60px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* #cart-box {
+  box-shadow: 
+    -0.5em 0.6em 1vw  rgba(0, 0, 0, 0.400),
+    8px 0.6em 1vw rgba(0, 0, 0, 0.400);
+
+  right: clamp(8px,calc(15vw - 80px),60px);
+}
+
+
+#cart-title {
+  display: flex;
+  align-items: center;
+
+}
+
+#cart-items-box {
+  height: 100%;
+} */
+
+
+
+
+
+
+
+
+/* <div id="cart-box"
+      className="bg-white fixed top-20
+      rounded-xl z-50 
+      w-80
+      min-h-[240px] h-auto"
+    >
+    
+      <h2 id="cart-title"
+        className="text-[black] text-lg font-bold
+        border-b-2 border-b-[#e4e5e9] p-6
+        w-full h-16"
+      >
+        Cart
+      </h2>
+      
+      <div id="cart-items-box"
+        className="overflow-auto 
+        w-full p-6
+        min-h-[176px] max-h-[50vh]"
+      >
+
+        { isCartEmpty 
+          ? <p className="text-gray-600 font-bold text-lg
+            w-full h-32 flex justify-center items-center"
+            >
+              Your cart is empty.
+            </p> 
+          : <p 
+              className="text-gray-600
+              w-full h-32 flex justify-center items-center"
+            >
+              Aquí van tus productos
+            </p> 
+        }
+        
+      </div>
+      
+      
+      
+      
+    </div> */

@@ -1,0 +1,134 @@
+
+
+.nav-itemsCol {
+  font-size: 20px;
+  padding-top: 24px;
+}
+
+.nav-itemsBar {
+  color: hsl(219, 9%, 45%);
+  font-size: clamp(14px,1.2vw,16px);
+  padding-top: 4px;
+  
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+}
+
+
+.nav-itemsBar:hover {
+  border-bottom: solid 4px hsl(26, 100%, 55%);
+}
+
+
+#image-avatar:hover {
+  cursor: pointer;
+  border-radius: 100%;
+  outline: 1px solid hsl(26, 100%, 55%);
+}
+
+
+
+@media only screen and (768px < width) {
+
+  #background-inset {
+    display: none;
+  }
+
+  #nav-mobileColumn {
+    left: -250px;
+  }
+
+
+
+  #header {
+    /* height: 80px; */
+
+    transition: 300ms ease-in-out;
+
+    justify-content: center;
+
+    padding: 0px clamp(16px,calc(20vw - 162px),120px);
+    
+
+  }
+
+  #icon-menu {
+    transition: left 300ms;
+    left: -500px;
+
+    position: absolute;
+  }
+
+
+  #desktop-header {
+
+    width: 100%;
+    
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+    border-bottom: solid 2px hsl(220, 14%, 75%);
+
+  }
+
+  #sneakers-div {
+    border-bottom: solid 4px transparent;
+  }
+
+  #sneakers-logo {
+    left: 0px;
+    top: 0px;
+    transition: left 500ms;
+    
+  }
+  
+
+  #nav-mobileBar {
+    
+    top: 0px;
+    left: 170px;
+    
+    width: 55vw;
+    max-width: 640px;
+ 
+  }
+
+
+  
+
+  #icon-cart-div {
+
+    position: absolute;
+    top: 21px;
+    right: calc(66px + 1.2vw);
+    
+  }
+
+ 
+  #image-avatar {
+    
+    width: 36px;
+    height: 36px;
+
+    position: absolute;
+    top: 17px;
+
+    right: 0px;
+
+  }
+
+  #image-avatar:hover {
+    cursor: pointer;
+    border-radius: 100%;
+    outline: 2px solid hsl(26, 100%, 55%);
+  }
+
+
+}
